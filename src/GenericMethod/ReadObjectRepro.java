@@ -9,6 +9,7 @@ public class ReadObjectRepro {
 public String ReturnObject(String parm) {
 	Properties obj = new Properties();
 	try{
+		
 	FileInputStream objfile = new FileInputStream("C:/Users/nitin/workspaceLuna/AutoHero/src/ObjectRepro" + "/Objects.properties");
 	obj.load(objfile);
 	}
